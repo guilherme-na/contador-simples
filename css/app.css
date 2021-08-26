@@ -1,0 +1,95 @@
+.containers {
+    display: flex;
+    justify-content: center;
+
+}
+
+.header__counter {
+    text-align: center;
+}
+
+.span {
+    text-align: center;
+    margin: 50%;
+    font-size: 5.25em;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+/*CSS Buttons*/
+
+.button__decrease{
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	border-radius:3px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    margin: 0 20px;
+}
+.button__decrease:hover {
+	background-color:transparent;
+}
+.button__decrease:active {
+	position:relative;
+	top:1px;
+}
+
+.button__increase{
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	border-radius:3px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    margin: 0 20px;
+}
+
+.button__increase:hover {
+	background-color:transparent;
+}
+.button__increase:active {
+	position:relative;
+	top:1px;
+}
+
+.button__reset{
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	border-radius:3px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.button__reset:hover {
+	background-color:transparent;
+}
+.button__reset:active {
+	position:relative;
+	top:1px;
+}
